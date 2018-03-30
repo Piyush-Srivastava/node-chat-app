@@ -11,15 +11,5 @@
 </body>
 
 <script src = "/socket.io/socket.io.js"></script>
-<script>
-    var socket = io();//to make a request to client open socket and create connection
-
-    socket.on('connect', () => {
-        console.log('Connected to server');
-    });
-    
-    socket.on('disconnect', () => {
-        console.log('Disconnected from the server');
-    });
-</script>
+<script src = "/js/index.js"></script>
 </html>
